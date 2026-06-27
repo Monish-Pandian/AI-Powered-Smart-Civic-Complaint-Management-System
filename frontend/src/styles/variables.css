@@ -1,0 +1,14 @@
+:root {
+  --primary: #4f46e5;
+  --accent: #06b6d4;
+  --bg: #f8fafc;
+  --dark: #0f172a;
+
+  --radius: 16px;
+  --radius-lg: 20px;
+
+  --shadow-soft: 0 8px 24px rgba(0,0,0,0.08);
+  --shadow-hover: 0 12px 30px rgba(0,0,0,0.15);
+
+  --transition: all 0.3s ease;
+}

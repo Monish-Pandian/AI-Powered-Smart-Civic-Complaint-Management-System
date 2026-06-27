@@ -1,0 +1,17 @@
+body::before {
+  content: "";
+  position: fixed;
+  width: 300%;
+  height: 300%;
+  background: radial-gradient(circle, #4f46e5 10%, transparent 10%),
+              radial-gradient(circle, #06b6d4 10%, transparent 10%);
+  background-size: 50px 50px;
+  animation: moveBg 20s linear infinite;
+  opacity: 0.05;
+  z-index: -1;
+}
+
+@keyframes moveBg {
+  from { transform: translate(0,0); }
+  to { transform: translate(-200px,-200px); }
+}

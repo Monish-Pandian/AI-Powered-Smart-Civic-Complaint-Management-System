@@ -1,0 +1,120 @@
+/* ===== Navbar ===== */
+
+.glass {
+  position: relative;
+  z-index: 1000;
+}
+
+.navbar-search {
+  max-width: 500px;
+}
+
+.navbar-search input {
+  border-radius: 12px;
+}
+
+/* ===== Notifications ===== */
+
+.notification-dropdown {
+  min-width: 340px;
+  max-width: 380px;
+  max-height: 350px;
+  overflow-y: auto;
+
+  position: absolute !important;
+  right: 0 !important;
+  left: auto !important;
+
+  z-index: 99999 !important;
+
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+
+  background: white;
+}
+
+.notification-item {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}
+
+.notification-item:hover {
+  background: #f8fafc;
+}
+
+.notification-badge {
+  font-size: 0.7rem;
+}
+
+/* ===== User Dropdown ===== */
+
+.user-dropdown {
+  min-width: 220px;
+  z-index: 99999 !important;
+}
+
+/* ===== All Bootstrap Dropdowns ===== */
+
+.dropdown-menu.show {
+  z-index: 99999 !important;
+}
+
+/* ===== Scrollbar ===== */
+
+.notification-dropdown::-webkit-scrollbar {
+  width: 6px;
+}
+
+.notification-dropdown::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+/* ===== Mobile ===== */
+
+
+.mobile-menu-btn{
+  display:none;
+}
+
+@media (max-width:576px){
+
+  .mobile-menu-btn{
+    display:block;
+  }
+
+}
+.mobile-navbar {
+  display: none;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .mobile-navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobile-navbar button {
+    border: none;
+    background: transparent;
+    font-size: 24px;
+  }
+
+  .navbar-search,
+  .desktop-navbar {
+    display: none !important;
+  }
+
+  .mobile-search {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
