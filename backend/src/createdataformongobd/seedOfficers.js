@@ -17,13 +17,16 @@ const lastNames = [
 ];
 
 const departments = [
-  "Water Supply",
-  "Electricity",
-  "Roads",
-  "Sanitation",
-  "Transport",
-  "Drainage",
-  "Municipal"
+"Electricity",
+"Water Supply",
+"Municipal Administration",
+ "Roads & Highways",
+"Traffic",
+"Police",
+"Health",
+"Fire & Emergency",
+ "Environment",
+"Public Transport"
 ];
 
 const used = new Set();
